@@ -1,0 +1,285 @@
+/* Webfont: Lato-Black */
+@font-face {
+    font-family: 'LatoWebBlack';
+    src: url('../fonts/lato/Lato-Black.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/lato/Lato-Black.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/lato/Lato-Black.woff2') format('woff2'), /* Modern Browsers */
+         url('../fonts/lato/Lato-Black.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/lato/Lato-Black.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+/* Webfont: Lato-Bold */
+@font-face {
+    font-family: 'LatoWebBold';
+    src: url('../fonts/lato/Lato-Bold.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/lato/Lato-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/lato/Lato-Bold.woff2') format('woff2'), /* Modern Browsers */
+         url('../fonts/lato/Lato-Bold.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/lato/Lato-Bold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* Webfont: Lato-Light */
+@font-face {
+    font-family: 'LatoWebLight';
+    src: url('../fonts/lato/Lato-Light.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/lato/Lato-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/lato/Lato-Light.woff2') format('woff2'), /* Modern Browsers */
+         url('../fonts/lato/Lato-Light.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/lato/Lato-Light.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* Webfont: Lato-Regular */
+@font-face {
+    font-family: 'LatoWeb';
+    src: url('../fonts/lato/Lato-Regular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/lato/Lato-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/lato/Lato-Regular.woff2') format('woff2'), /* Modern Browsers */
+         url('../fonts/lato/Lato-Regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/lato/Lato-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* Webfont: Lato-Thin */
+@font-face {
+    font-family: 'LatoWebThin';
+    src: url('../fonts/lato/Lato-Thin.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/lato/Lato-Thin.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/lato/Lato-Thin.woff2') format('woff2'), /* Modern Browsers */
+         url('../fonts/lato/Lato-Thin.woff') format('woff'), /* Modern Browsers */
+         url('f../fonts/lato/Lato-Thin.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+nav {
+  padding: 50px 0;
+}
+
+header, footer {
+  background: linear-gradient(51deg, #3695ff 0%, #3564fc 100%);
+  text-align: center;
+}
+
+header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+nav li {
+  text-align: right; /*menu_icon on the right*/
+}
+
+.icon-logo {
+  vertical-align: middle;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+
+h1 {
+  padding:0 150px;
+  margin: 50px 0 0 0;
+  color: #ffffff;
+  font-family: "LatoWebBlack", sans-serif;
+  font-size: 50px;
+  line-height: 60px;
+  text-transform: uppercase;
+  letter-spacing: 1.25px;
+}
+
+header p {
+  padding:0 200px;
+  margin: 40px 0 70px 0;
+  color: #ffffff;
+  font-family: "LatoWebLight", sans-serif;
+  font-size: 16px;
+  line-height: 35px;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+}
+
+.buttn-HireMe {
+  display: inline-block;
+  padding: 12px 70px;
+  margin: 0;
+  background: #ffffff;
+  border-radius: 2em;
+  text-decoration: none;
+  color: #3695ff;
+  font-family: "LatoWebBold", sans-serif;
+  font-size: 16px;
+  font-size: 16px;
+  line-height: 30px;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+}
+
+.cursor-down {
+  display: block;
+  padding: 90px 0 25px 0;
+}
+
+.about-me a, .expert-in a, .latest-works a, .clients a{
+  text-decoration: none;
+}
+
+.about-me {
+  text-align: center;
+}
+
+h2 {
+  padding: 100px 0 10px 0;
+  margin: 0;
+  background-image: linear-gradient(51deg, #3695ff 0%, #3564fc 100%);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-family: "LatoWebThin", sans-serif;
+  font-size: 50px;
+  line-height: 35.12px;
+
+}
+
+.about-me p {
+  padding: 30px 50px 100px 50px;
+  margin: 0;
+  color: #5a5a5a;
+  font-family: "LatoWeb", sans-serif;
+  font-size: 16px;
+  line-height: 35px;
+}
+
+.expert-in {
+  background-color: #f1f8ff;
+  text-align: center;
+}
+
+.expert-in ul, .latest-works ul, .clients ul {
+  list-style: none;
+  margin: 110px 0 0 0;
+  padding: 0;
+}
+
+.expert-in li, .latest-works li {
+  display: inline-block;
+  vertical-align: top;
+  width: 33%;
+}
+
+.expert-in img {
+  border-radius: 50%;
+  border: 1px solid #b7c0c9;
+
+}
+.expert-in h3 {
+  margin: 0;
+  padding: 60px 0 30px 0;
+  color: #3677fd;
+  font-family: "LatoWebBold", sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.expert-in p {
+  margin: 0;
+  padding-bottom: 100px;
+  color: #5a5a5a;
+  font-family: "LatoWeb", sans-serif;
+  font-size: 16px;
+  line-height: 35px;
+}
+
+.expert-in-icon {
+  max-width: 100%;
+}
+
+.latest-works {
+  overflow: hidden;
+  text-align: center;
+}
+
+.latest-works li {
+  padding-bottom: 30px;
+}
+
+.work-icon, .clients-icon {
+  width: 95%;
+}
+
+.clients {
+  background-color: #f1f8ff;
+  text-align: center;
+}
+
+.clients li {
+  display: inline-block;
+  vertical-align: middle;
+  width: 24%;
+}
+
+.clients-icon {
+  max-width: 80%;
+  -webkit-filter: grayscale(1);
+  filter: gray;
+  filter: grayscale(1); 
+}
+
+.clients ul {
+  padding-bottom: 100px;
+}
+
+footer p {
+  display: inline-block;
+  vertical-align: middle;
+  width: 80%;
+  color: #ffffff;
+  font-family: "LatoWebLight", sans-serif;
+  font-size: 50px;
+  line-height: 65px;
+}
+
+footer span{
+    font-family: "LatoWebBold", sans-serif;
+}
+
+.messg-cookies {
+  width: 100%;
+  background-color: #194277;
+}
+
+.messg-cookies p {
+  margin: 0;
+  padding: 20px 50px;
+  display: inline-block;
+  color: #ffffff;
+  font-family: "LatoWeb", sans-serif;
+  font-size: 14px;
+  line-height: 36px;
+  text-transform: none;
+}
+
+.buttn-Accept {
+  display: inline-block;
+  padding: 10px 45px;
+  margin: 0;
+  background: #ffffff;
+  border-radius: 2em;
+  text-decoration: none;
+  color: #194277;
+  font-family: "LatoWebBold", sans-serif;
+  font-size: 12px;
+}
